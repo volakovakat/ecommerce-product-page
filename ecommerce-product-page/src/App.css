@@ -1,0 +1,30 @@
+* {padding: 0; margin: 0;}
+html:root {background-color: #fff;}
+body {box-sizing: border-box; font-family: "kumbh sans", sans-serif;}
+button {border: none; background: none;}
+
+.attribution { font-size: 11px; text-align: center; color: #69707d;}
+
+h1 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  color: #1D2026;
+  padding: 16px 0;
+
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1.85px;
+  color: #69707d;
+  text-transform: uppercase;
+}
+
+p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #69707D;
+}
