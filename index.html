@@ -3,42 +3,86 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
   <title>Frontend Mentor | E-commerce product page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  Collections
-  Men
-  Women
-  About
-  Contact
+<nav class="navbar">
+  <div class="navbar-left">
+    <button class="menu-mobile"><img src="images/icon-menu.svg" width="16" height="15" /></button>
+      <img src="images/logo.svg" width="137.5" height="20" />
+  </div>
 
-  Sneaker Company
+  <div class="navbar-links" id="menu-desktop"> <!-- visible for desktop only -->
+    <a href="#collections">Collections</a>
+    <a href="#men">Men</a>
+    <a href="#women">Women</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
 
-  Fall Limited Edition Sneakers
+  <div class="navbar-right">
+    <button class="btn-cart"><img src="images/icon-cart.svg" width="22" /></button>
+    <img src="images/image-avatar.png" width="24" />
+  </div>
+</nav>
 
-  These low-profile sneakers are your perfect casual wear companion. Featuring a 
-  durable rubber outer sole, they’ll withstand everything the weather can offer.
+<div class="product-detail">
+  <!-- left side -->
+  <div class="product-detail--image">
+    <!--<img src="images/image-product-1.jpg" />-->
+  </div>
 
-  $125.00
-  50%
-  $250.00
+  <!-- right side -->
+  <div class="product-detail--info">
+    <h2>Sneaker company</h2>
+    <h1>
+      Fall Limited Edition Sneakers
+    </h1>
 
-  0
-  Add to cart
-  
+    <p>These low-profile sneakers are your perfect casual wear companion. Featuring a
+      durable rubber outer sole, they’ll withstand everything the weather can offer.
+    </p>
+
+    <div class="product-detail--price">
+      <div class="product-detail--price__actual">
+        <p class="price-actual">$125.00</p>
+        <p class="price-discount">50%</p>
+      </div>
+      <p class="price-crossed">$250.00</p>
+    </div>
+
+    <div class="product-detail--cart">
+      <div class="product-detail--cart__adjustment">
+        <img src="images/icon-minus.svg" width="12" height="4" />
+        <p class="items-count">0</p>
+        <img src="images/icon-plus.svg" width="12" height="12" />
+      </div>
+
+      <div class="product-detail--cart__cta">
+        <button>
+          <span><img src="images/icon-cart.svg" width="18"/></span>
+          <span>Add to cart</span>
+        </button>
+      </div>
+    </div>
+
+    <div>
+
+    </div>
+
+  </div>
+</div>
+
+
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.linkedin.com/in/katerinavolakova/" target="_blank">Kateřina N. Voláková</a>.
   </div>
 </body>
 </html>
