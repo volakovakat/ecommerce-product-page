@@ -1,0 +1,28 @@
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-size: inherit;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 5.71px;
+    height: 11.43px;
+    padding: 14.29px 17.14px;
+}
+
+.swiper-button-next:after {
+    content: url("../../../public/images/icon-next.svg");
+}
+
+.swiper-button-prev:after {
+    content: url("../../../public/images/icon-previous.svg");
+}
+
+.swiperMobile {
+    height: 300px;
+}
+
+.swiper-slide > img {
+    min-height: 394px;
+    max-height: 430px;
+}

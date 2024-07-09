@@ -1,5 +1,6 @@
 import {Navbar} from "../Navbar";
 import './style.css';
+import {SwiperImg} from "../SwiperImg";
 
 export const Product = () => {
     return (
@@ -8,7 +9,7 @@ export const Product = () => {
             <div className="product-detail">
                 {/*left side*/}
                 <div className="product-detail--image">
-                     {/*<img src="images/image-product-1.jpg" /> */}
+                     <SwiperImg/>
                 </div>
 
                 {/*right side*/}

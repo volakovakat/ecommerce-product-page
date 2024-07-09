@@ -4,7 +4,7 @@
 }
 
 .product-detail--image {
-    background: no-repeat center/100% url("../../../public/images/image-product-1.jpg");
+    /*background: no-repeat center/100% url("../../../public/images/image-product-1.jpg");*/
     height: 300px;
 }
 
